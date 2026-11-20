@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #5d9ba1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c0c63;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.tombol_3{
+    display: flex;
+    gap: 15px;
+}
+
+.link{
+    text-decoration-line: none;
+    color: white;
+}
+
+.tombol {
+    background-color: #066065;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tombol:hover {
+    background-color: #0a858b;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tombol:active {
+    transform: scale(0.95);
+}
+
+.tombol_daftar {
+    background-color: #044043;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tombol_daftar:hover {
+    background-color: #066065;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tombol_daftar:active {
+    transform: scale(0.95);
+}
+
+.heading{
+    padding: 20px 40px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading2-ket{
+    text-align: left;
+}
+
+.heading3{
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+}
+
+.heading3-info{
+    display: flex;
+    gap: 5px;
+    flex-direction:row;
+    align-items: center;
+}
+
+    
+.background {
+    background-image: url("../ASSETS/images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 340px;
+    width: 100%;
+    
+    box-sizing: border-box;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.isi{
+    padding: 0 0 20px 0;
+    font-family: "poppins",sans-serif;
+}
+
+.benefit{
+    padding: 0 20px;
+}
+
+.benefit1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 15%;
+}
+
+.benefit2{
+    background-color: rgb(205, 236, 245);
+    width: 234px;
+    height: 295px;
+    border-radius: 3%; 
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.benefit-icons{
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+.benefit-info{
+    padding: 0 10px;
+    text-align: justify;
+}
+
+footer{
+    background-color: #0c0c63;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    font-family: "poppins",sans-serif;
+}
+
+.footer-kiri{
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.footer-kanan{
+    display: flex;
+    padding: 0 50px;
+    font-family: cursive;
+}

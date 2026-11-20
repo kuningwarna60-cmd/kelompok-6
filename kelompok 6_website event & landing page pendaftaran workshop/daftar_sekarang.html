@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/daftar_sekarang.css">
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <img src="ASSETS/icons/logo.png" width="50px" height="50px">
+        </div>
+        <div class="tombol_3">
+            <button class="tombol"> <a href="home.html" class="link">Home</a></button>
+            <button class="tombol"> <a href="detail.html" class="link">Detail</a></button>
+            <button class="tombol"> <a href="contact.html" class="link">Contact</a></button>
+        </div>
+        <div>
+            <button class="tombol_daftar"> <a href="daftar_sekarang.html" class="link">Daftar Sekarang</a></button>
+        </div>
+    </div>
+    <div class="ke-beranda">
+        <a href="home.html"><img src="ASSETS/icons/back.png" alt="" width="40px"></a>
+        Kembali Ke Beranda
+    </div>
+    <div class="form-container">
+
+        <h1>Formulir Pendaftaran</h1>
+
+        <p class="form-container-p">Isi data berikut untuk mendaftar.</p>
+
+
+        <form action="daftar_suksess.html" method="GET">
+
+            <label for="nama">Nama</label>
+            <input
+                type="text"
+                id="nama"
+                name="nama"
+                required
+            >
+
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+
+            <label for="nohp">No. HP</label>
+            <input
+                type="number"
+                id="nohp"
+                name="nohp"
+                required
+            >
+
+
+            <label for="Alamat">Alamat</label>
+            <input
+                type="text"
+                id="Alamat"
+                name="Alamat"
+                required
+            >
+
+
+            <div class="persetujuan">
+                <input type="checkbox" id="setuju" required>
+
+                <label for="setuju">
+                    Saya menyetujui syarat dan ketentuan yang berlaku.
+                </label>
+            </div>
+
+
+            <button type="submit" class="btn-daftar">
+                <a href="daftar_suksess.html" class="link">Daftar Sekarang</a> 
+            </button>
+
+        </form>
+
+    </div>
+    <footer>
+        <div class="footer-kiri">
+            <div>
+                XI PPLG 3
+            </div>
+            <div>
+                Kelompok 6
+            </div>
+        </div>
+        <div class="footer-kanan">
+            Atrium Writers
+        </div>
+    </footer>
+</body>
+</html>

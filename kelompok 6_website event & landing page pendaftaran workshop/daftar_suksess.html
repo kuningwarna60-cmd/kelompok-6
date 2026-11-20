@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Berhasil</title>
+    <link rel="stylesheet" href="CSS/daftar_suksess.css">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div>
+            <img src="ASSETS/icons/logo.png" width="50px" height="50px">
+        </div>
+
+        <div class="tombol_3">
+
+            <button class="tombol">
+                <a href="home.html" class="link">Home</a>
+            </button>
+
+            <button class="tombol">
+                <a href="detail.html" class="link">Detail</a>
+            </button>
+
+            <button class="tombol">
+                <a href="contact.html" class="link">Contact</a>
+            </button>
+
+        </div>
+
+        <div>
+            <button class="tombol_daftar">
+                <a href="daftar_sekarang.html" class="link">
+                    Daftar Sekarang
+                </a>
+            </button>
+        </div>
+
+    </div>
+
+
+    <!-- KONTEN BERHASIL -->
+
+    <div class="berhasil-container">
+
+        <p class="logo-kecil"></p>
+
+        <div class="centang">
+            ✓
+        </div>
+
+        <h1>Pendaftaran Berhasil!</h1>
+
+        <div class="garis-satu">Terima kasih telah melakukan pendaftaran.</div>
+
+        <div class="garis-dua">Proses registrasi anda telah selesai.</div>
+
+
+        <!-- DATA YANG DIISI -->
+        <div class="data-pendaftar">
+
+            <p>
+                <b>Nama:</b>
+                <span id="hasilNama"></span>
+            </p>
+
+            <p>
+                <b>Email:</b>
+                <span id="hasilEmail"></span>
+            </p>
+
+            <p>
+                <b>No. HP:</b>
+                <span id="hasilNohp"></span>
+            </p>
+
+            <p>
+                <b>Alamat:</b>
+                <span id="hasilAlamat"></span>
+            </p>
+
+        </div>
+
+
+        <a href="home.html" class="kembali-btn">
+            Kembali ke beranda
+        </a>
+
+    </div>
+
+    <footer>
+        <div class="footer-kiri">
+            <div>
+                XI PPLG 3
+            </div>
+            <div>
+                Kelompok 6
+            </div>
+        </div>
+        <div class="footer-kanan">
+            Atrium Writers
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        const data = new URLSearchParams(window.location.search);
+
+        document.getElementById("hasilNama").textContent =
+            data.get("nama") || "-";
+
+        document.getElementById("hasilEmail").textContent =
+            data.get("email") || "-";
+
+        document.getElementById("hasilNohp").textContent =
+            data.get("nohp") || "-";
+
+        document.getElementById("hasilAlamat").textContent =
+            data.get("Alamat") || "-";
+
+    </script>
+
+</body>
+</html>

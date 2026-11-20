@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #5d9ba1;
+    font-family: "poppins",sans-serif;
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c0c63;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.tombol_3{
+    display: flex;
+    gap: 15px;
+}
+
+.link{
+    text-decoration-line: none;
+    color: white;
+}
+
+.tombol {
+    background-color: #066065;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tombol:hover {
+    background-color: #0a858b;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tombol:active {
+    transform: scale(0.95);
+}
+
+.tombol_daftar {
+    background-color: #044043;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tombol_daftar:hover {
+    background-color: #066065;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tombol_daftar:active {
+    transform: scale(0.95);
+}
+
+.background {
+    background-color: #4591a7;
+
+    width: 90%;
+
+    min-height: 650px;
+
+    margin: 10px auto 0 auto;
+
+    padding: 40px 55px;
+
+    box-sizing: border-box;
+
+    border-radius: 10px;
+}
+
+.judul h1 {
+    margin: 0;
+
+    font-size: 25px;
+}
+
+.judul p {
+    margin: 15px 0 80px 0;
+
+    font-size: 18px;
+}
+
+.isi {
+    display: flex;
+
+align-items: center;
+
+    gap: 135px;
+}
+
+.isi-kiri {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 43px;
+}
+
+.isi-tengah {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 43px;
+}
+
+.kartu {
+    width: 240px;
+    height: 54px;
+
+    background-color: #e4e5f4;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 8px;
+
+    box-sizing: border-box;
+
+    border-radius: 2px;
+}
+
+
+.icon {
+    font-size: 25px;
+
+    width: 30px;
+
+    text-align: center;
+}
+
+
+.kartu p {
+    margin: 0 0 3px 0;
+
+    font-size: 13px;
+}
+
+
+.kartu span {
+    font-size: 11px;
+}
+
+.isi-kanan {
+    background-color: #ffffff;
+
+    width: 275px;
+
+    height: 295px;
+
+    border-radius: 9px;
+
+    padding: 15px;
+
+    box-sizing: border-box;
+}
+
+.isi-kanan-kirim{
+    background-color: black;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.isi-kanan > p {
+    margin: 0 0 20px 0;
+
+    font-size: 13px;
+}
+
+
+.isi-kanan input,
+.isi-kanan textarea {
+    width: 100%;
+
+    border: none;
+
+    background-color: #e0e0e0;
+
+    padding: 12px;
+
+    box-sizing: border-box;
+
+    margin-bottom: 15px;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    border-radius: 4px;
+}
+
+
+.isi-kanan input {
+    height: 41px;
+}
+
+
+.isi-kanan textarea {
+    height: 55px;
+
+    resize: none;
+}
+
+footer{
+    background-color: #0c0c63;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    font-family: "poppins",sans-serif;
+}
+
+.footer-kiri{
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.footer-kanan{
+    display: flex;
+    padding: 0 50px;
+    font-family: cursive;
+}
